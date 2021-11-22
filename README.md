@@ -21,3 +21,6 @@
 | Total  | -  | 5841 | /19 |
 
 ![Pohon IP Modul 4](https://user-images.githubusercontent.com/61174498/142829788-a16c7c3d-ac79-4f20-82d3-a5a0c011f62e.png)
+
+
+![CleanShot_2021-11-22_at_12 58 55](https://user-images.githubusercontent.com/61174498/142830350-b330d624-df63-47b5-8624-bbdbccfcf8a5.png)
