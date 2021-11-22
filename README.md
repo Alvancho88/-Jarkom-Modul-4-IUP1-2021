@@ -22,25 +22,42 @@
 
 ![Pohon IP Modul 4](https://user-images.githubusercontent.com/61174498/142829788-a16c7c3d-ac79-4f20-82d3-a5a0c011f62e.png)
 
-# VLSM
+# A.) VLSM
 
-## Subnetting
+## a.) Subnetting
 
-### Config Router
+### a1.) Config Router
 
 
-#### FOOSHA
-
-##### FA 0/0
-```
-
-```
+#### 1. FOOSHA
 
 ##### FA 0/0
 ```
 
 ```
 
-### Config PC
+##### FA 0/1
+```
+
+```
+
+##### FA 1/1
+```
+
+```
+
+##### FA 0/3/0
+```
+
+```
+
+##### FA 1/0
+```
+
+```
+
+### a2.) Config PC
 
 ## Routing
+
+# B.) VLSM
