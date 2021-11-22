@@ -1,5 +1,8 @@
 # Jarkom-Modul-4-IUP1-2021
 
+
+![Untitled](https://user-images.githubusercontent.com/61174498/142829803-32c2027d-d362-40e0-8c91-b44045531b2c.png)
+
 | Subnet  | Alias | Jumlah IP | Netmask |
 | ------------- | ------------- | ------------- | ------------- |
 | A1  | jipangu - pucci  | 101 | /25 |
@@ -16,3 +19,5 @@
 | A12  | enieslobby - seastone - oimo  | 252 | /24 |
 | A13  | seastone - elena  | 721 | /22 |
 | Total  | -  | 5841 | /19 |
+
+![Pohon IP Modul 4](https://user-images.githubusercontent.com/61174498/142829788-a16c7c3d-ac79-4f20-82d3-a5a0c011f62e.png)
