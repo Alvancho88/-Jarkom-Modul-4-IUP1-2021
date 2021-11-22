@@ -22,7 +22,7 @@
 
 ![Pohon IP Modul 4](https://user-images.githubusercontent.com/61174498/142829788-a16c7c3d-ac79-4f20-82d3-a5a0c011f62e.png)
 
-# A.) VLSM
+# A.) VLSM (Variable Length Subnet Masking)
 
 ## a.) Subnetting
 
@@ -56,8 +56,213 @@
 
 ```
 
-### a2.) Config PC
 
-## Routing
+#### 2. WATER7
 
-# B.) VLSM
+##### FA 0/0
+```
+
+```
+
+##### FA 0/1
+```
+
+```
+
+##### FA 1/0
+```
+
+```
+
+
+#### 3. PUCCI
+
+##### FA 0/0
+```
+
+```
+
+##### FA 0/1
+```
+
+```
+
+##### FA 1/0
+```
+
+```
+
+
+#### 4. GUANHAO
+
+##### FA 0/0
+```
+
+```
+
+##### FA 0/1
+```
+
+```
+
+##### FA 1/0
+```
+
+```
+
+##### FA 1/1
+```
+
+```
+
+
+#### 5. ALABASTA
+
+##### FA 0/0
+```
+
+```
+
+##### FA 0/1
+```
+
+```
+
+
+#### 6. OIMO
+
+##### FA 0/0
+```
+
+```
+
+##### FA 0/1
+```
+
+```
+
+##### FA 1/0
+```
+
+```
+
+
+#### 7. SEASTONE
+
+##### FA 0/0
+```
+
+```
+
+##### FA 0/1
+```
+
+```
+
+
+### a2.) Config PC & Server
+
+#### 1. BLUENO
+```
+
+```
+
+#### 2. CIPHER
+```
+
+```
+
+
+#### 3. JIPANGU
+```
+
+```
+
+
+#### 4. COURTYARD
+```
+
+```
+
+
+#### 5. CALMBELT
+```
+
+```
+
+#### 6. JABRA
+```
+
+```
+
+#### 7. MAINGATE
+```
+
+```
+
+#### 8. JORGE
+```
+
+```
+
+#### 9. FUKUROU
+```
+
+```
+
+#### 10. ENIESLOBBY
+```
+
+```
+
+#### 11. ELENA
+```
+
+```
+
+#### 12. DORIKI
+```
+
+```
+
+
+## Static Routing
+
+### 1. FOOSHA
+```
+
+```
+
+### 2. FOOSHA
+```
+
+```
+
+### 3. FOOSHA
+```
+
+```
+
+### 4. FOOSHA
+```
+
+```
+
+### 5. FOOSHA
+```
+
+```
+
+### 6. FOOSHA
+```
+
+```
+
+### 7. FOOSHA
+```
+
+```
+
+
+
+# B.) CIDR (Classless Inter Domain Routing)
