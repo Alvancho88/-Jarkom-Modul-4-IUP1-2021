@@ -1,6 +1,6 @@
 # Jarkom-Modul-4-IUP1-2021
 
-| Subnet  | Alias | Jumlah IP | Netmask |
+| ###Subnet  | ###Alias | ###Jumlah IP | ###Netmask |
 | ------------- | ------------- | ------------- | ------------- |
 | A1  | jipangu - pucci  | 101 | /25 |
 | A2  | courtyard - calmbelt - pucci  | 2021 | /21 |
