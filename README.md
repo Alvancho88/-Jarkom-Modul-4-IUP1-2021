@@ -290,34 +290,63 @@ Fukurou
 
 ```
 
-### 2. FOOSHA
+Ruter terakhir 0.0.0.0 via sebelum menuju ruter
+0.0.0.0/0 via 10.38.1.1
+
+Ruter sebelum IP A yang belum via ip dari sebelum ke ruter
+0.0.0.0/0 via 10.38.1.5
+10.38.1.128/25 via 10.38.1.2
+
+
+
+### 2. WATER7
 ```
+JIPANGU
+10.38.27.0
+255.255.255.128
+10.38.27.146
+
+COURTYARD
+10.38.0.0
+255.255.248.0
+10.38.27.146
+
+0.0.0.0
+0.0.0.0
+10.38.27.149
 
 ```
 
-### 3. FOOSHA
+### 3. PUCCI
 ```
+0.0.0.0
+0.0.0.0
+10.38.27.145
 
 ```
 
-### 4. FOOSHA
+### 4. GUANHAO
+```
+0.0.0.0
+0.0.0.0
 ```
 
+### 5. ALABSTA
+```
+0.0.0.0
+0.0.0.0
 ```
 
-### 5. FOOSHA
+### 6. OIMO
+```
+0.0.0.0
+0.0.0.0
 ```
 
+### 7. SEASTONE
 ```
-
-### 6. FOOSHA
-```
-
-```
-
-### 7. FOOSHA
-```
-
+0.0.0.0
+0.0.0.0
 ```
 
 
