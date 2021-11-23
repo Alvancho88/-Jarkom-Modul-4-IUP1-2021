@@ -20,7 +20,7 @@
 | A15  | oimo - fukurou | 2 | /30 |
 | Total  | -  | 5845 | /19 |
 
-![Untitled (3)](https://user-images.githubusercontent.com/61174498/142999196-438bb788-caf6-4179-bab5-a7a2dc1de59f.png)
+![Pohon IP Modul 4 (1)](https://user-images.githubusercontent.com/61174498/143044829-9ad476ae-82f5-4138-8bfa-3df2cad446ef.png)
 
 ![Untitled (2)](https://user-images.githubusercontent.com/61174498/142999208-15716177-3ac1-4f7d-b9b9-2caec471dc9b.png)
 
