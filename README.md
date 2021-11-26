@@ -450,30 +450,30 @@ ELENA
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.16.2
 ```
 
-### PUCCI
+### Water 7
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.64.2
 route add -net 10.38.8.0 netmask 255.255.255.128 gw 10.38.16.1
 route add -net 10.38.0.0 netmask 255.255.248.0 gw 10.38.16.1
 ```
 
-### PUCCI
+### Seastone
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.4.1
 ```
 
-### PUCCI
+### Oimo
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.16.1
 route add -net 10.38.0.0 netmask 255.255.252.0 gw 10.38.4.2
 ```
 
-### PUCCI
+### Alabasta
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.0.1
 ```
 
-### PUCCI
+### Guanhao
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.200.64.1
 route add -net 10.38.4.0 netmask 255.255.255.0 gw 10.38.16.2
@@ -481,7 +481,7 @@ route add -net 10.38.0.0 netmask 255.255.252.0 gw 10.38.16.2
 route add -net 10.38.8.0 netmask 255.255.255.252 gw 10.38.16.2
 ```
 
-### PUCCI
+### Foosha
 ```
 # bawah
 route add -net 10.38.4.0 netmask 255.255.255.0 gw 10.38.64.2
