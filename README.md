@@ -422,3 +422,283 @@ ELENA
 
 
 # B.) CIDR (Classless Inter Domain Routing)
+
+## Config ETH
+
+### Jipangu
+```
+
+```
+
+
+### Jipangu
+```
+auto eth0
+iface eth0 inet static
+address 10.38.8.2
+netmask 255.255.255.128
+gateway 10.38.8.1
+```
+
+
+### Jipangu
+```
+
+```
+
+
+### Pucci
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.38.16.1
+netmask 255.255.255.252
+gateway 10.38.16.2
+
+auto eth1
+iface eth1 inet static
+address 10.38.8.1
+netmask 255.255.255.128
+
+auto eth2
+iface eth2 inet static
+address 10.38.0.1
+netmask 255.255.248.0
+```
+
+
+### Courtyard
+```
+auto eth0
+iface eth0 inet static
+address 10.38.0.2
+netmask 255.255.248.0
+gateway 10.38.0.1
+```
+
+
+### Calmbelt
+```
+auto eth0
+iface eth0 inet static
+address 10.38.0.3
+netmask 255.255.248.0
+gateway 10.38.0.1
+```
+
+
+### Water7
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.38.64.1
+netmask 255.255.255.252
+gateway 10.38.64.2
+
+auto eth1
+iface eth1 inet static
+address 10.38.32.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.38.16.2
+netmask 255.255.255.252
+```
+
+
+### Cipher
+```
+auto eth0
+iface eth0 inet static
+address 10.38.32.2
+netmask 255.255.252.0
+gateway 10.38.32.1
+```
+
+### Foosha
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+address 10.38.128.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.38.64.2
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.38.128.1
+netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+address 10.38.64.1
+netmask 255.255.255.252
+```
+
+### Blueno
+```
+auto eth0
+iface eth0 inet static
+address 10.38.128.2
+netmask 255.255.252.0
+gateway 10.38.128.1
+```
+
+### Doriki
+```
+auto eth0
+iface eth0 inet static
+address 10.38.128.2
+netmask 255.255.255.252
+gateway 10.38.128.1
+```
+
+### Guanhao
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.38.64.2
+netmask 255.255.255.252
+gateway 10.38.64.1
+
+auto eth1
+iface eth1 inet static
+address 10.38.36.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.38.0.1
+netmask 255.255.254.0
+
+
+auto eth3
+iface eth3 inet static
+address 10.38.16.1
+netmask 255.255.255.252
+```
+
+### Jabra
+```
+auto eth0
+iface eth0 inet static
+address 10.38.36.2
+netmask 255.255.252.0
+gateway 10.38.36.1
+```
+
+### Maingate
+```
+auto eth0
+iface eth0 inet static
+address 10.38.0.3
+netmask 255.255.254.0
+gateway 10.38.0.1
+```
+
+### Alabasta
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.38.0.2
+netmask 255.255.254.0
+gateway 10.38.0.1
+
+auto eth1
+iface eth1 inet static
+address 10.38.34.1
+netmask 255.255.255.240
+```
+
+
+### Jorge
+```
+auto eth0
+iface eth0 inet static
+address 10.38.34.2
+netmask 255.255.255.240
+gateway 10.38.34.1
+```
+
+
+### Oimo
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.38.16.2
+netmask 255.255.255.252
+gateway 10.38.16.1
+
+auto eth1
+iface eth1 inet static
+address 10.38.8.1
+netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+address 10.38.4.1
+netmask 255.255.255.0
+```
+
+
+### EniesLobby
+```
+auto eth0
+iface eth0 inet static
+address 10.38.4.3
+netmask 255.255.255.0
+gateway 10.38.4.1
+```
+
+
+### Seastone
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.38.4.2
+netmask 255.255.255.0
+gateway 10.38.4.1
+
+auto eth1
+iface eth1 inet static
+address 255.255.252.1
+netmask 10.38.0.0
+```
+
+
+### Elena
+```
+auto eth0
+iface eth0 inet static
+address 10.38.0.2
+netmask 255.255.252.0
+gateway 10.38.0.1
+```
