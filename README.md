@@ -425,11 +425,87 @@ ELENA
 
 ## Config ETH
 
-### Jipangu
+| Subnet | Node | IP | Subnet Mask | Length |
+| --- | --- | --- | --- | --- |
+| A1 | jipangu pucci | 10.38.8.0 | 255.255.255.128 | 25 |
+| A2 | court, calm, puc | 10.38.0.0 | 255.255.248.0 | 21 |
+| A3 | pucci water | 10.38.16.0 | 255.255.255.252 | 30 |
+| A4 | cipher water | 10.38.32.0 | 255.255.252.0 | 22 |
+| A5 | blueno foosh | 10.38.128.0 | 255.255.252.0 | 22 |
+| A6 | foosh wat | 10.38.64.0 | 255.255.255.252 | 30 |
+| A7 | foosh guan | 10.38.64.0 | 255.255.255.252 | 30 |
+| A8 | guan jabra | 10.38.36.0 | 255.255.252.0 | 22 |
+| A9 | guanhao maingate alabas | 10.38.0.0 | 255.255.254.0 | 23 |
+| A10 | alabas jorge | 10.38.34.0 | 255.255.255.240 | 28 |
+| A11 | guan oimo | 10.38.16.0 | 255.255.255.252 | 30 |
+| A12 | oimo enies seastone | 10.38.4.0 | 255.255.255.0 | 24 |
+| A13 | seas elena | 10.38.0.0 | 255.255.252.0 | 22 |
+| A14 | foosha doriki | 10.38.128.0 | 255.255.255.252 | 30 |
+| A15 | fukurou oimo | 10.38.8.0 | 255.255.255.252 | 30 |
+
+## Config GNS
+
+### PUCCI
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.16.2
+```
+
+### PUCCI
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.64.2
+route add -net 10.38.8.0 netmask 255.255.255.128 gw 10.38.16.1
+route add -net 10.38.0.0 netmask 255.255.248.0 gw 10.38.16.1
+```
+
+### PUCCI
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.4.1
+```
+
+### PUCCI
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.16.1
+route add -net 10.38.0.0 netmask 255.255.252.0 gw 10.38.4.2
+```
+
+### PUCCI
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.0.1
+```
+
+### PUCCI
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.200.64.1
+route add -net 10.38.4.0 netmask 255.255.255.0 gw 10.38.16.2
+route add -net 10.38.0.0 netmask 255.255.252.0 gw 10.38.16.2
+route add -net 10.38.8.0 netmask 255.255.255.252 gw 10.38.16.2
+```
+
+### PUCCI
+```
+# bawah
+route add -net 10.38.4.0 netmask 255.255.255.0 gw 10.38.64.2
+route add -net 10.38.0.0 netmask 255.255.252.0 gw 10.38.64.2
+route add -net 10.38.8.0 netmask 255.255.255.252 gw 10.38.64.2
+route add -net 10.38.36.0 netmask 255.255.252.0 gw 10.38.64.2
+route add -net 10.38.0.0 netmask 255.255.254.0 gw 10.38.64.2
+route add -net 10.38.34.0 netmask 255.255.255.240 gw 10.38.64.2
+
+# kiri
+route add -net 10.38.8.0 netmask 255.255.255.128 gw 10.38.64.1
+route add -net 10.38.0.0 netmask 255.255.248.0 gw 10.38.64.1
+route add -net 10.38.32.0 netmask 255.255.252.0 gw 10.38.64.1
 ```
 
 ```
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 10.38.0.0/15
+```
 
+```
+echo "nameserver 10.38.122.1" > /etc/resolv.conf
+```
+
+## Config ETH
 
 ### Jipangu
 ```
@@ -439,13 +515,6 @@ address 10.38.8.2
 netmask 255.255.255.128
 gateway 10.38.8.1
 ```
-
-
-### Jipangu
-```
-
-```
-
 
 ### Pucci
 ```
