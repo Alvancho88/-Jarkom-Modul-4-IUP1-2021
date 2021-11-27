@@ -5,6 +5,8 @@
 2. (05111942000017) Juan Carlos Tepanus Pardosi
 3. (05111942000028) Salma Izzatul Islam
 
+## File VLSM di CPT (.pkt) dan CIDR di GNS3 (.gns3project)
+
 ## Subnet Table
 
 ![1](https://user-images.githubusercontent.com/61174498/143670070-31d86437-7ca2-4b4d-bf9e-29a86d5d79cb.png)
@@ -74,6 +76,8 @@
 
 
 # A.) VLSM (Variable Length Subnet Masking)
+
+![Screenshot (10189)](https://user-images.githubusercontent.com/61174498/143675679-6820e7b6-734e-4fb9-a28b-eb4759d96028.png)
 
 ## a.) Subnetting
 
@@ -474,6 +478,8 @@ ELENA
 
 # B.) CIDR (Classless Inter Domain Routing)
 
+![Screenshot (10190)](https://user-images.githubusercontent.com/61174498/143675688-90c0ba09-34a2-4c57-b867-9760648d67f0.png)
+
 ![CIDR_Subnetting 1](https://user-images.githubusercontent.com/61174498/143672928-1b6b70d1-b6dc-418c-9fd5-a905d02ca59e.png)
 
 ![CIDR_Subnetting 2](https://user-images.githubusercontent.com/61174498/143672934-0fb01f5c-ab5e-44f5-9d48-f83cebacef52.png)
@@ -844,3 +850,11 @@ address 10.38.0.2
 netmask 255.255.252.0
 gateway 10.38.0.1
 ```
+
+## Problem
+
+a.) Cannot ping on GNS3
+
+b.) Case sensitive IP address
+
+c.) Packet testing in CPT sometimes failed but mostly successful
