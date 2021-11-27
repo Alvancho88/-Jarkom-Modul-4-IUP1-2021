@@ -1,5 +1,6 @@
 # Jarkom-Modul-4-IUP1-2021
 
+![1](https://user-images.githubusercontent.com/61174498/143670070-31d86437-7ca2-4b4d-bf9e-29a86d5d79cb.png)
 
 | Subnet  | Alias | Jumlah IP | Netmask |
 | ------------- | ------------- | ------------- | ------------- |
