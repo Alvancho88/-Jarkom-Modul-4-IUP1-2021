@@ -5,8 +5,6 @@
 2. (05111942000017) Juan Carlos Tepanus Pardosi
 3. (05111942000028) Salma Izzatul Islam
 
-## Subnet Table
-
 ![1](https://user-images.githubusercontent.com/61174498/143670070-31d86437-7ca2-4b4d-bf9e-29a86d5d79cb.png)
 
 | Subnet  | Alias | Jumlah IP | Netmask |
@@ -28,11 +26,7 @@
 | A15  | oimo - fukurou | 2 | /30 |
 | Total  | -  | 5845 | /19 |
 
-## Subnet Tree
-
 ![Pohon IP Modul 4 (1)](https://user-images.githubusercontent.com/61174498/143044829-9ad476ae-82f5-4138-8bfa-3df2cad446ef.png)
-
-## Cisco Packet Tracker (VLSM)
 
 ![Untitled (2)](https://user-images.githubusercontent.com/61174498/142999208-15716177-3ac1-4f7d-b9b9-2caec471dc9b.png)
 
@@ -520,6 +514,7 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.16.2
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.64.2
 route add -net 10.38.8.0 netmask 255.255.255.128 gw 10.38.16.1
 route add -net 10.38.0.0 netmask 255.255.248.0 gw 10.38.16.1
+route add -net 10.38.16.0 netmask 255.255.255.252 gw 10.38.16.1
 ```
 
 ### Seastone
@@ -535,15 +530,20 @@ route add -net 10.38.0.0 netmask 255.255.252.0 gw 10.38.4.2
 
 ### Alabasta
 ```
-route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.0.1
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.32.1
 ```
 
 ### Guanhao
 ```
-route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.200.64.1
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.38.64.1
 route add -net 10.38.4.0 netmask 255.255.255.0 gw 10.38.16.2
 route add -net 10.38.0.0 netmask 255.255.252.0 gw 10.38.16.2
 route add -net 10.38.8.0 netmask 255.255.255.252 gw 10.38.16.2
+route add -net 10.38.34.0 netmask 255.255.255.240 gw 10.38.32.2
+# oimo-guan subnet
+route add -net 10.38.16.0 netmask 255.255.255.252 gw 10.38.32.2
+# doriki
+route add -net 10.38.128.0 netmask 255.255.255.252 gw 10.38.64.1
 ```
 
 ### Foosha
@@ -553,13 +553,15 @@ route add -net 10.38.4.0 netmask 255.255.255.0 gw 10.38.64.2
 route add -net 10.38.0.0 netmask 255.255.252.0 gw 10.38.64.2
 route add -net 10.38.8.0 netmask 255.255.255.252 gw 10.38.64.2
 route add -net 10.38.36.0 netmask 255.255.252.0 gw 10.38.64.2
-route add -net 10.38.0.0 netmask 255.255.254.0 gw 10.38.64.2
+route add -net 10.38.32.0 netmask 255.255.254.0 gw 10.38.64.2
 route add -net 10.38.34.0 netmask 255.255.255.240 gw 10.38.64.2
+route add -net 10.38.16.0 netmask 255.255.255.252 gw 10.38.64.2
 
 # kiri
 route add -net 10.38.8.0 netmask 255.255.255.128 gw 10.38.64.1
 route add -net 10.38.0.0 netmask 255.255.248.0 gw 10.38.64.1
 route add -net 10.38.32.0 netmask 255.255.252.0 gw 10.38.64.1
+route add -net 10.38.16.0 netmask 255.255.255.252 gw 10.38.64.1
 ```
 
 ```
