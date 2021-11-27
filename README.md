@@ -1,5 +1,10 @@
 # Jarkom-Modul-4-IUP1-2021
 
+## Group Member Name:
+1. (05111942000010) Agustinus Aldi Irawan
+2. (05111942000017) Juan Carlos Tepanus Pardosi
+3. (05111942000028) Salma Izzatul Islam
+
 ![1](https://user-images.githubusercontent.com/61174498/143670070-31d86437-7ca2-4b4d-bf9e-29a86d5d79cb.png)
 
 | Subnet  | Alias | Jumlah IP | Netmask |
