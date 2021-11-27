@@ -5,6 +5,8 @@
 2. (05111942000017) Juan Carlos Tepanus Pardosi
 3. (05111942000028) Salma Izzatul Islam
 
+## Subnet Table
+
 ![1](https://user-images.githubusercontent.com/61174498/143670070-31d86437-7ca2-4b4d-bf9e-29a86d5d79cb.png)
 
 | Subnet  | Alias | Jumlah IP | Netmask |
@@ -26,7 +28,11 @@
 | A15  | oimo - fukurou | 2 | /30 |
 | Total  | -  | 5845 | /19 |
 
+## Subnet Tree
+
 ![Pohon IP Modul 4 (1)](https://user-images.githubusercontent.com/61174498/143044829-9ad476ae-82f5-4138-8bfa-3df2cad446ef.png)
+
+## Cisco Packet Tracker (VLSM)
 
 ![Untitled (2)](https://user-images.githubusercontent.com/61174498/142999208-15716177-3ac1-4f7d-b9b9-2caec471dc9b.png)
 
