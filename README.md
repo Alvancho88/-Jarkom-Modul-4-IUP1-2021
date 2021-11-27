@@ -462,6 +462,20 @@ ELENA
 
 # B.) CIDR (Classless Inter Domain Routing)
 
+![CIDR_Subnetting 1](https://user-images.githubusercontent.com/61174498/143672928-1b6b70d1-b6dc-418c-9fd5-a905d02ca59e.png)
+
+![CIDR_Subnetting 2](https://user-images.githubusercontent.com/61174498/143672934-0fb01f5c-ab5e-44f5-9d48-f83cebacef52.png)
+
+![CIDR_Subnetting 3](https://user-images.githubusercontent.com/61174498/143672936-2e6703a7-d6c3-49e7-8715-f446fd8a934f.png)
+
+![CIDR_Subnetting 4](https://user-images.githubusercontent.com/61174498/143672940-4aad19d2-6b15-4158-9819-97297a4e284e.png)
+
+![CIDR_Subnetting 5](https://user-images.githubusercontent.com/61174498/143672944-d5dca679-01eb-4e73-95b8-10287699b068.png)
+
+![CIDR_Subnetting 6](https://user-images.githubusercontent.com/61174498/143672946-91edf217-fdca-48dd-b3b1-a89b345e0203.png)
+
+![Pohon IP CIDR Modul 4](https://user-images.githubusercontent.com/61174498/143672950-de4f57c1-dc2a-4dbb-a8ef-a500ab4c1a3a.png)
+
 ## Config ETH
 
 | Subnet | Node | IP | Subnet Mask | Length |
